@@ -69,8 +69,9 @@
   <ItemGroup>
     <Content Include="img\1.jpg" />
     <Content Include="img\2.jpg" />
-    <Content Include="img\3.jpg" />
     <Content Include="img\Logo.png" />
+    <Content Include="img\Mancha_Urbana.png" />
+    <Content Include="img\Vidamap.jpg" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -93,7 +94,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="img\Imagenes\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
